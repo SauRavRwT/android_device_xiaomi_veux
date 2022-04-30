@@ -200,7 +200,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_holi
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -446,10 +447,10 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-holi.sh \
     init.qcom.sh \
     init.qcom.post_boot.sh \
-    init.nfc.rc \
     init.qcom.rc \
     init.qti.kernel.rc \
     init.qti.ufs.rc \
+    init.xiaomi.rc \
     init.target.rc \
     ueventd.qcom.rc \
     vendor_modprobe.sh
