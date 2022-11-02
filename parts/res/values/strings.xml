@@ -17,9 +17,9 @@
 <resources>
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
+
     <string name="doze_brightness_title">Always on brightness</string>
     <string name="doze_brightness_summary">%s mode is enabled</string>
-    <string name="music_headset_scenario_vocal">Voice</string>
 
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Clear speaker</string>

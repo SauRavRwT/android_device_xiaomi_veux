@@ -24,7 +24,6 @@ import android.content.IntentFilter;
 import android.util.Log;
 
 import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -37,6 +36,5 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             Log.d(TAG, "Received boot completed intent");
         DozeUtils.onBootCompleted(context);
         ThermalUtils.startService(context);
-        PocketService.startService(context);
     }
 }
