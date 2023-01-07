@@ -137,7 +137,6 @@ persist.vendor.audio.delta.refresh=true
 ro.config.vc_call_vol_steps=11
 
 # Bluetooth
-persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-lhdc
 persist.bluetooth.a2dp_offload.disabled=false
 ro.bluetooth.a2dp_offload.supported=true
 
