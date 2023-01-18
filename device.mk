@@ -498,9 +498,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# Thermal
+# Trust
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    vendor.lineage.trust@1.0-service
 
 # Update Engine
 PRODUCT_PACKAGES += \
