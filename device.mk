@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayVeux \
     SettingsProviderOverlayVeux \
     SystemUIOverlayVeux \
+    SimpleDeviceConfigOverlayVeux \
     TelephonyOverlayVeux \
     WifiOverlayVeux
 
