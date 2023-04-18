@@ -168,6 +168,9 @@ ro.vendor.display.svi=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 ro.vendor.display.sensortype=2
+persist.sys.sf.color_mode=9
+persist.sys.sf.native_mode=2
+debug.sf.enable_egl_image_tracker=1
 
 # Dolby
 vendor.audio.dolby.ds2.enabled=false
